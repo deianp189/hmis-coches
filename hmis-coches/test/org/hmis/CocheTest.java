@@ -14,7 +14,7 @@ class TestCoche {
     void verifyCarGetters(Coche car, String expectedBrand, String expectedModel, int expectedYear, int expectedPrice) {
         assertEquals(car.getMarca(), expectedBrand);
         assertEquals(car.getModelo(), expectedModel);
-        assertEquals(car.getAño(), expectedYear);
+        assertEquals(car.getAnio(), expectedYear);
         assertEquals(car.getPrecio(), expectedPrice);
     }
 
@@ -30,12 +30,12 @@ class TestCoche {
     void verifyCarSetters(Coche car, String expectedBrand, String expectedModel, int expectedYear, int expectedPrice) {
         car.setMarca("Seat");
         car.setModelo("Leon");
-        car.setAño(2006);
+        car.setAnio(2006);
         car.setPrecio(1860);
         
         assertEquals(car.getMarca(), expectedBrand);
         assertEquals(car.getModelo(), expectedModel);
-        assertEquals(car.getAño(), expectedYear);
+        assertEquals(car.getAnio(), expectedYear);
         assertEquals(car.getPrecio(), expectedPrice);
     }
 

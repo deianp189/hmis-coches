@@ -3,25 +3,25 @@
     {
       "marca": "Toyota",
       "modelo": "Corolla",
-      "año": 2022,
+      "anio": 2022,
       "precio": 22000
     },
     {
       "marca": "Ford",
       "modelo": "Mustang",
-      "año": 2021,
+      "anio": 2021,
       "precio": 45000
     },
     {
       "marca": "Chevrolet",
       "modelo": "Camaro",
-      "año": 2023,
+      "anio": 2023,
       "precio": 52000
     },
     {
       "marca": "Honda",
       "modelo": "Civic",
-      "año": 2022,
+      "anio": 2022,
       "precio": 25000
     }
   ]
